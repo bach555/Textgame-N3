@@ -1,0 +1,26 @@
+.start{
+    align-items: center;
+    display: flexs;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+   
+}
+.flex-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.background-color{
+    background-color: aquamarine
+    
+}
+.bg-black{
+    background-color: black
+}
