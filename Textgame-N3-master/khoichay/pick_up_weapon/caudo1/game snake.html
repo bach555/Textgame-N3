@@ -92,9 +92,9 @@ function loop() {
 
     if (cell.x === apple.x && cell.y === apple.y) {
       snake.maxCells++;
-      if(snake.maxCells == 23){
-        string.link("")                      //link
-      }
+      // if(snake.maxCells == 5){
+        
+      // }
       apple.x = getRandomInt(0, 25) * grid;
       apple.y = getRandomInt(0, 25) * grid;
     }

@@ -1,7 +1,7 @@
-var start = document.querySelector("")
-.addEventListener("click", () =>{
+// var start = document.querySelector("")
+// .addEventListener("click", () =>{
     
-})
+// })
 
 //  function changeImage() {    
 //     var image = document.getElementById('myImage');   

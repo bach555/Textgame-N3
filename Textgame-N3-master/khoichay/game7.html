@@ -6,21 +6,27 @@
     <title>Escape</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    
-</head>
-<body class="bg-black">
-    <div class="flex-container start">
-        <div>
-            <img src="gg.png" usemap="#planetmap"> 
-            <map name="planetmap">
-                <area shape="rect" coords=370,182,410,203" href="pick_up_weapon/part_1.html">
-            </map>
-            <script>
-                alert("Bạn là con tin, bạn hãy tìm cách chạy trốn")
-            </script>
-        </div>
-    </div>
-  
 
+</head>
+<body>   
+    <img id="gg" src="gg.png" usemap="#planetmap"> 
+    <map name="planetmap">
+        <area id="toadoduicui" shape="rect" href="pick_up_weapon/part_1.html">
+        <area id="toadogiuong" shape="rect" href="push_bed/part_1.html">
+    </map>
+    <script>
+        alert("Bạn là con tin, bạn hãy tìm cách chạy trốn")
+
+        var x = screen.availWidth - 20;
+        var x_push_bed = x/3
+        var x_pick_up_weapon_dau = x/2
+        var x_pick_up_weapon_cuoi = x/1.74
+        var toadoduicui = [x_pick_up_weapon_dau,349,x_pick_up_weapon_cuoi,386]
+        var toadogiuong = [x_push_bed,412,0,539]
+
+        document.getElementById("gg").width = x;
+        document.getElementById("toadoduicui").coords = toadoduicui
+        document.getElementById("toadogiuong").coords = toadogiuong
+    </script>
 </body>
 </html>
